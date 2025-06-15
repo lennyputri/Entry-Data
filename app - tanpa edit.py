@@ -82,10 +82,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==== Header & Sidebar ====
-st.image(
-    "D:/2. MAGANG BISMILLAH/MERATUS/Customer_Guidance_Invoicing_Streamlit_App/Logo-MGLog.png",
-    width=240
-)
+st.image("Logo-MGLog.png", width=240)
+
 st.title("Customer Guidance Invoicing Form")
 
 menu = st.sidebar.radio("Menu", ["📄 Lihat Data", "➕ Entri Data Baru"])
