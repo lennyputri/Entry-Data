@@ -82,8 +82,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==== Header & Sidebar ====
-st.image("https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png", width=240)
-
+st.markdown(
+    '<img src="https://www.freight-hub.co/wp-content/uploads/2023/11/Logo-MGLog.png.webp" width="240"/>',
+    unsafe_allow_html=True
+)
 st.title("Customer Guidance Invoicing Form")
 
 menu = st.sidebar.radio("Menu", ["📄 Lihat Data", "➕ Entri Data Baru"])
