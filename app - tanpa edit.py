@@ -82,7 +82,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==== Header & Sidebar ====
-st.image("Logo-MGLog.png", width=240)
+st.image("https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png", width=240)
 
 st.title("Customer Guidance Invoicing Form")
 
